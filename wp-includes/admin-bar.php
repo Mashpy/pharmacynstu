@@ -233,7 +233,7 @@ function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 		'parent' => 'user-actions',
 		'id'     => 'user-info',
 		'title'  => $user_info,
-		'href'   => $profile_url,
+		'href'   => bp_loggedin_user_domain(),
 		'meta'   => array(
 			'tabindex' => -1,
 		),
@@ -242,7 +242,7 @@ function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 		'parent' => 'user-actions',
 		'id'     => 'edit-profile',
 		'title'  => __( 'Edit My Profile' ),
-		'href' => $profile_url,
+		'href' => bp_loggedin_user_domain(),
 	) );
 	$wp_admin_bar->add_menu( array(
 		'parent' => 'user-actions',
