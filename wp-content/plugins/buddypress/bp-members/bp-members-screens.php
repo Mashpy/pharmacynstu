@@ -519,7 +519,7 @@ class BP_Registration_Theme_Compat {
 			$title = __( 'Create an Account', 'buddypress' );
 
 			if ( 'completed-confirmation' == bp_get_current_signup_step() ) {
-				$title = __( 'Check Your Email To Activate Your Account!', 'buddypress' );
+				$title = __( 'Your membership account is awaiting approval by the site administrator', 'buddypress' );
 			}
 
 		// Activation page
