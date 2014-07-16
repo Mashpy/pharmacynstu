@@ -1,0 +1,1 @@
+[11-Jul-2014 17:20:29 UTC] WordPress database error Table 'mashpy_pharmacy.g' doesn't exist for query SELECT DISTINCT g.id FROM  g  ORDER BY g.group_order ASC made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, xpa_plugin_init_action, BPxProfileACL->BPxProfileACL, BP_XProfile_Group::get

@@ -1,0 +1,9 @@
+0000.000 (0) Opened log file at time: Wed, 16 Jul 2014 03:12:57 +0000 on http://mashpy-129621.apse1.nitrousbox.com:80
+0000.005 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.15 WP: 3.9.1 PHP: 5.5.11 (Linux mashpy-129621 3.13.4 #1 SMP Mon Mar 3 09:07:22 UTC 2014 x86_64) MySQL: 5.6.13 Server: Apache/2.4.7 (Unix) PHP/5.5.11 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 35.9M | 36.5M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 336062.2 Mb
+0000.017 (0) Tasks: Backup files:  (schedule: twicedaily) Backup DB: 1 (schedule: twicedaily)
+0000.022 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.026 (0) Decremented the semaphore (fd) by 1
+0000.030 (0) Semaphore (fd) still locked
+0000.034 (0) No email will be sent - this backup set was empty.
+0000.040 (0) The backup apparently succeeded and is now complete
