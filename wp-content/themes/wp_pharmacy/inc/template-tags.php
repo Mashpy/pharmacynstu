@@ -105,7 +105,11 @@ function twentyfourteen_posted_on() {
 	}
 
 	// Set up and print post meta information.
+<<<<<<< HEAD
 	printf( '<span class="entry-date">posted on <a href="%1$s" rel="bookmark"><time class="entry-date" datetime="%2$s">%3$s</time></a></span> <span class="byline"><span class="author vcard">posted by <a class="url fn n" href="%4$s" rel="author">%5$s</a></span></span>',
+=======
+	printf( '<span class="entry-date"><a href="%1$s" rel="bookmark"><time class="entry-date" datetime="%2$s">%3$s</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="%4$s" rel="author">%5$s</a></span></span>',
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 		esc_url( get_permalink() ),
 		esc_attr( get_the_date( 'c' ) ),
 		esc_html( get_the_date() ),

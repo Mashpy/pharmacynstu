@@ -15,6 +15,10 @@
 
 	<header class="entry-header">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 <?php			if ( is_single() ) :
 				the_title( '<h1 class="entry-title">', '</h1>' );
 			else :
@@ -29,7 +33,11 @@
 
 				if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
 			?>
+<<<<<<< HEAD
 		<?php echo "views ". setAndViewPostViews(get_the_ID()). " times";  ?>	
+=======
+			<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span>
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 			<?php
 				endif;
 

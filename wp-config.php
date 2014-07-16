@@ -9,14 +9,21 @@
  *
  * This file is used by the wp-config.php creation script during the
  * installation. You don't have to use the web site, you can just copy this file
+<<<<<<< HEAD
  * to "wp-config.php" and fill in the values
+=======
+ * to "wp-config.php" and fill in the values.
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
  *
  * @package WordPress
  */
 
+<<<<<<< HEAD
 define('AUTOSAVE_INTERVAL', 300 ); // seconds
 define('WP_POST_REVISIONS', false );
 
+=======
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'pharmacy');

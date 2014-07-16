@@ -13,7 +13,11 @@
 
 <?php do_action( 'bp_before_members_loop' ); ?>
 
+<<<<<<< HEAD
 <?php if ( bp_has_members(bp_ajax_querystring( 'members').'&type=alphabetical') ) : ?>
+=======
+<?php if ( bp_has_members( bp_ajax_querystring( 'members' ) ) ) : ?>
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 
 	<div id="pag-top" class="pagination">
 
@@ -54,6 +58,7 @@
 
 				</div>
 
+<<<<<<< HEAD
 				<?php do_action( 'bp_directory_members_item' ); ?>
 
 				<?php
@@ -62,6 +67,21 @@
 				 
 				?>
 <div class="item-meta"><span class="activity"><?php bp_member_last_active(); ?></span></div>
+=======
+				<div class="item-meta"><span class="activity"><?php bp_member_last_active(); ?></span></div>
+
+				<?php do_action( 'bp_directory_members_item' ); ?>
+
+				<?php
+				 /***
+				  * If you want to show specific profile fields here you can,
+				  * but it'll add an extra query for each member in the loop
+				  * (only one regardless of the number of fields you show):
+				  *
+				  * bp_member_profile_data( 'field=the field name' );
+				  */
+				?>
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 			</div>
 
 			<div class="action">

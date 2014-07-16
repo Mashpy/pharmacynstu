@@ -1779,7 +1779,11 @@ function bp_core_signup_send_validation_email( $user_id, $user_email, $key ) {
 	$activate_url = bp_get_activation_page() ."?key=$key";
 	$activate_url = esc_url( $activate_url );
 
+<<<<<<< HEAD
 	$message = sprintf( __( "Your membership account is awaiting approval by the site administrator. You will not be able to fully interact with the social aspects of this website until your account is approved. Once approved or denied you will receive an email notice.", 'buddypress' ), $activate_url );
+=======
+	$message = sprintf( __( "Thanks for registering! To complete the activation of your account please click the following link:\n\n%1\$s\n\n", 'buddypress' ), $activate_url );
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 	$subject = bp_get_email_subject( array( 'text' => __( 'Activate Your Account', 'buddypress' ) ) );
 
 	// Send the message

@@ -17,6 +17,7 @@ get_header(); ?>
 <div class="col-lg-3">
   <div class="well clearfix" style="font-size:20px">
    <h4> <a href="/category/blog/">NSTU Pharma Blog</a></h4>
+<<<<<<< HEAD
   <p style="font-size:14px; text-align:justify">  Welcome to our nstu pharma blog . Here you can share your knowledge, experience and ideas. </p>
   </div>
     <?php
@@ -26,6 +27,10 @@ get_header(); ?>
 <div class="widget well advanced-sidebar-menu">
 <?php dynamic_sidebar( 'sidebar-6' ); ?>
 <?php endif; ?></div>
+=======
+  <p style="font-size:14px; text-align:justify">  Welcome to our nstupharma blog . Here you can share your knowledge, experience and ideas. </p>
+  </div>
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 </div>
 <div class="col-lg-9">
 			<?php if ( have_posts() ) : ?>

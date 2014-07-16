@@ -188,7 +188,11 @@ function wp_admin_bar_my_account_item( $wp_admin_bar ) {
 		return;
 
 	$avatar = get_avatar( $user_id, 26 );
+<<<<<<< HEAD
 	$howdy  = sprintf( __('Hello, %1$s'), $current_user->display_name );
+=======
+	$howdy  = sprintf( __('Howdy, %1$s'), $current_user->display_name );
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 	$class  = empty( $avatar ) ? '' : 'with-avatar';
 
 	$wp_admin_bar->add_menu( array(

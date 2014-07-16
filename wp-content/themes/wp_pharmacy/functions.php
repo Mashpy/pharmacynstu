@@ -199,6 +199,7 @@ function twentyfourteen_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
+<<<<<<< HEAD
 	register_sidebar( array(
 		'name'          => __( 'blog-sidebar', 'twentyfourteen' ),
 		'id'            => 'sidebar-6',
@@ -208,6 +209,9 @@ function twentyfourteen_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );	
+=======
+	
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 
 add_action( 'widgets_init', 'twentyfourteen_widgets_init' );
 
@@ -546,6 +550,7 @@ function remove_xprofile_links() {
 }
 add_action( 'bp_init', 'remove_xprofile_links' );
 
+<<<<<<< HEAD
 function remove_admin_buddypress() {
    echo '<style type="text/css">
             #wp-admin-bar-my-account-buddypress{display:none}
@@ -602,3 +607,5 @@ function setAndViewPostViews($postID) {
     }
     return $count; /* so you can show it */
 }
+=======
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10

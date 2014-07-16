@@ -9,6 +9,7 @@
 
 get_header(); ?>
 
+<<<<<<< HEAD
 <div style="margin-bottom: 60px" class="row marketing">
 <div class="col-lg-3">
   <div class="well clearfix" style="font-size:20px">
@@ -27,6 +28,15 @@ get_header(); ?>
 ?>
 </ul>
 </div>
+=======
+
+
+
+<div style="margin-bottom: 60px" class="row marketing">
+<div class="col-lg-3">
+
+
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 </div>
 <div class="col-lg-9">
 			<?php

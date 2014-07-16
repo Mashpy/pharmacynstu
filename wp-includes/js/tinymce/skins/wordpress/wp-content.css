@@ -2,7 +2,11 @@
 body {
 	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
 	font-size: 13px;
+<<<<<<< HEAD
 	line-height: 12px;
+=======
+	line-height: 19px;
+>>>>>>> 02cbf4dbc4e2ca873c825c31dcd42c56ec818b10
 	color: #333;
 	margin: 10px;
 }
